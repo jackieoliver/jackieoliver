@@ -3,7 +3,7 @@
 Software engineer working on payments infrastructure, data pipelines, and capture systems for robot learning.
 
 - **RentAHuman:** payout ledger (double-entry, Postgres) and Stripe Connect / Whop money movement
-- **Haptica (founder):** haptic gloves and egocentric capture rigs for robot training data
+- **Haptica (founder):** haptic gloves and egocentric capture rigs for robot training data. Code is in the [hapticasensorics](https://github.com/hapticasensorics) org; most of my commits there went through a teammate's GitHub account, so they aren't attributed to this profile.
 - **KBRA:** data engineering: Airflow, Kafka, Databricks, SQL Server ingestion for a credit data platform
 
 ## Selected projects

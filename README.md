@@ -1,56 +1,20 @@
-# Jackie Oliver - 3D Portfolio
+# Jackie Oliver
 
-A personal portfolio website featuring an interactive 3D tree experience built with Three.js.
+Software engineer working on payments infrastructure, data pipelines, and capture systems for robot learning.
 
-## 🚀 Getting Started
+- **RentAHuman:** payout ledger (double-entry, Postgres) and Stripe Connect / Whop money movement
+- **Haptica (founder):** haptic gloves and egocentric capture rigs for robot training data
+- **KBRA:** data engineering: Airflow, Kafka, Databricks, SQL Server ingestion for a credit data platform
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- A local web server (e.g., Python `http.server`, VS Code Live Server, or Node.js `http-server`)
+## Selected projects
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/jackieoliver/jackieoliver.github.io.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd jackieoliver.github.io
-   ```
-3. Start a local server:
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   ```
-4. Open `http://localhost:8000` in your browser.
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [agent-sync](https://github.com/jackieoliver/agent-sync) | Never-destructive two-way sync of AI-assistant conversations and memory between a Mac and a Linux workstation, with conflict detection and deduplicated alerting | Python, systemd, rsync |
+| [pnp-js](https://github.com/jackieoliver/pnp-js) | Perspective-n-Point camera pose solver: DLT initialization and Levenberg–Marquardt refinement, zero dependencies | JavaScript |
+| [audio-clock-sync](https://github.com/jackieoliver/audio-clock-sync) | Recovers clock offsets between recording devices from the ambient audio they both heard, to within one sample | Python, NumPy |
+| [codex-claude-fable-plugin](https://github.com/jackieoliver/codex-claude-fable-plugin) | Calls Claude models from Codex chat, with model routing, effort control and per-project memory | JavaScript |
 
-## 🏗️ Project Structure
+Most of my production work lives in private employer repositories. I'm happy to walk through it.
 
-The project is split into standard web files and a dedicated 3D module.
-
-```
-├── index.html          # Main entry point
-├── style.css           # Global styles and UI overlay
-├── main.js             # UI logic (Dark mode, Typewriter, DOM events)
-├── tree/               # The 3D Tree Experience Module
-│   ├── index.js        # Main 3D orchestrator (init, animate loop)
-│   ├── sceneSetup.js   # Three.js boilerplate (Scene, Camera, Renderer, Lighting)
-│   ├── treeGeometry.js # Procedural generation of the tree mesh
-│   ├── camera.js       # Camera movement logic (Intro orbit, Guided scroll)
-│   └── content.js      # Text data for the 3D labels
-```
-
-## 🌟 Key Features
-
-### Tree Mode
-An immersive 3D visualization where the user explores a colossal tree. Each section of the tree represents a different aspect of the portfolio (About, Beliefs, Interests, Contact).
-
-### Camera Modes
-- **Intro Mode**: The camera orbits high above the tree, giving a cinematic view.
-- **Guided Mode**: Once the user starts, the camera follows a spiral path up the trunk, controlled by scrolling.
-- **Free Camera**: (Debug/Editor) Allows WASD movement to inspect the scene.
-
-### Dynamic Lighting
-The 3D scene syncs with the website's Dark/Light mode.
-- **Light Mode**: Bright sunlight, blue sky, fog.
-- **Dark Mode**: Nighttime, moonlight, dark fog, glowing moon.
+[LinkedIn](https://www.linkedin.com/in/jacqueline-r-oliver/) · [3D tree site](https://jackieoliver.github.io/jackieoliver/)

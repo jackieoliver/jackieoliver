@@ -13,7 +13,7 @@ Software engineer working on infrastructure, data pipelines, and capture systems
 | [Capture & hand tracking](https://github.com/jackieoliver/hand-tracking-pipeline) | Camera control, recording sessions, telemetry, and hand-pose processing. **Python, Swift, GoPro, Apple Vision.** |
 | [Agent Sync](https://github.com/jackieoliver/agent-sync) | Synchronize coding-assistant state across Mac and Linux with conflict detection, checksum verification, and backups. **Python, SSH/rsync, systemd.** |
 | [pnp-js](https://github.com/jackieoliver/pnp-js) | Estimate camera pose from 2D–3D correspondences using DLT initialization and Levenberg–Marquardt refinement. **JavaScript, no runtime dependencies.** |
-| [French Weave](https://github.com/jackieoliver/french-weave-extension) | A language-learning browser extension with constrained model output, validation, caching, fallback, and evaluations. **JavaScript, Chrome extensions.** |
+| [French Weave](https://github.com/jackieoliver/french-weave-extension) | Language learning across browser reading and coding assistants: constrained substitutions plus a documented Claude Code/Codex shared-state integration. **JavaScript, Python.** |
 | [Audio Clock Sync](https://github.com/jackieoliver/audio-clock-sync) | Estimate recording-device clock offsets from shared audio, with confidence scoring and candidate-offset comparison. **Python, NumPy, SciPy.** |
 | [Claude for Codex](https://github.com/jackieoliver/codex-claude-fable-plugin) | A CLI bridge with model selection and persistent project conversations. **JavaScript, Node.js.** |
 

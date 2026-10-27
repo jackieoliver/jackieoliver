@@ -23,7 +23,9 @@ These are curated code editions. Private recordings, context archives, credentia
 
 ### Smaller tools
 
-[Agent Sync](https://github.com/jackieoliver/agent-sync) · [pnp-js](https://github.com/jackieoliver/pnp-js) · [French Weave](https://github.com/jackieoliver/french-weave-extension) · [Audio Clock Sync](https://github.com/jackieoliver/audio-clock-sync) · [Claude for Codex](https://github.com/jackieoliver/codex-claude-fable-plugin)
+[pnp-js](https://github.com/jackieoliver/pnp-js) · [Audio Clock Sync](https://github.com/jackieoliver/audio-clock-sync) · [Librarians of Babel](https://github.com/jackieoliver/librarians-of-babel) · [French Weave](https://github.com/jackieoliver/french-weave) · [French Weave extension](https://github.com/jackieoliver/french-weave-extension) · [Claude for Codex](https://github.com/jackieoliver/codex-claude-fable-plugin) · [LinkedOut](https://github.com/jackieoliver/linkedout) · [Neon City](https://github.com/jackieoliver/neon-city)
+
+Most of these also have a block diagram showing how they work.
 
 Most production work lives in private repositories. I'm happy to walk through the architecture and engineering decisions.
 
